@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dagnachew Mamo | IT Portfolio</title>
+    <link rel="stylesheet" href="stayle.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">IT-Dev</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+<img src="dagnachew.png" class="dagnachew" width="30%" height="30%"   alt="">
+    <section id="home" class="hero">
+      <h1>Hi ❤️, my name is <span class="highlight">Dagnachew Mamo</span></h1>
+      <p>
+        I am <span class="type-text highlight"></span
+        ><span class="cursor">|</span>
+      </p>
+      <button class="btn">View my project</button>
+    </section>
+    <hr />
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="todo-card">
+        <h3>To-Do List</h3>
+        <div class="input-row">
+          <input
+            type="text"
+            id="todoInput"
+            placeholder="add new task here..."
+          />
+          <button id="addBtn">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card calculator">
+          <h4>Simple Calculator</h4>
+          <div class="calc-display">
+            <input type="text" id="display" readonly placeholder="0" />
+          </div>
+          <div class="calc-buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToDisplay('+')">+</button>
+          </div>
+        </div>
+
+        <div class="project-card clock-card">
+          <h4>Digital Clock</h4>
+          <div id="clock">00:00:00</div>
+          <button id="theme-toggle">Switch Theme</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
