@@ -1,5 +1,5 @@
 
-const words = ["Frontend Developer", "IT Specialist", "UI/UX Designer"];
+const words = ["Frontend Developer"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -89,4 +89,5 @@ if (themeBtn) {
 document.addEventListener("DOMContentLoaded", () => {
     typeEffect();
     updateClock();
+
 });
