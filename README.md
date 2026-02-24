@@ -15,5 +15,5 @@ A professional portfolio website built with HTML5, CSS3, and JavaScript. This pr
 - JavaScript - Functionality
 
  🚀 How to view
-You can view the live version of this project here: https://dagne55.github.io/My-first-project-/index.html
+You can view the live version of this project here: https://dagne55.github.io/My-first-project-/portfolio/index.html
  
